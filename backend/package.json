@@ -1,0 +1,67 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:native": "electron .",
+    "test": "cross-env NODE_ENV=test jest",
+    "build:frontend": "npm run build --prefix ../frontend",
+    "copy:frontend": "node -e \"const fse = require('fs-extra'); fse.copySync('../frontend/dist', 'public');\"",
+    "build": "npm run build:frontend && npm run copy:frontend && electron-builder build"
+  },
+  "build": {
+    "appId": "com.financial.assistant",
+    "productName": "Financial Assistant",
+    "publish": ["github"],
+    "directories": {
+      "output": "dist-electron"
+    },
+    "files": [
+      "src/**/*",
+      "crypto_utils.js",
+      "database.js",
+      "server.js",
+      "public/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.11.1",
+    "cors": "^2.8.6",
+    "decimal.js": "^10.6.0",
+    "dotenv": "^17.4.2",
+    "electron-updater": "^6.8.9",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "helmet": "^8.2.0",
+    "multer": "^2.2.0",
+    "tesseract.js": "^7.0.0",
+    "yahoo-finance2": "^3.15.3"
+  },
+  "devDependencies": {
+    "@electron/rebuild": "^4.0.4",
+    "cross-env": "^10.1.0",
+    "electron": "^42.4.1",
+    "electron-builder": "^26.15.3",
+    "fs-extra": "^11.3.5",
+    "jest": "^30.4.2",
+    "nodemon": "^3.1.14"
+  }
+}

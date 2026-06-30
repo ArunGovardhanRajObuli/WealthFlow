@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "f31c11b314926fad",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ea5a3f5b72a4c0f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "894fcaaa6b7536c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "App_Architecture/Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Overview"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1bcc6a92f67e5350",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef3dc0d2da4a993c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8493d488c49a04ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f777e9160ae22da3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c9fd972716f28cd2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "688e5b036cc8866f",
+    "type": "split",
+    "children": [
+      {
+        "id": "0eba343e55b433b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fb7f7425b84f2d1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "832e99b735a6be13",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "0aa923aae6ad60e3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "31aae3e3e404f7f2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "1859570f46d78fcf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "894fcaaa6b7536c0",
+  "lastOpenFiles": [
+    "missing_services.txt",
+    "vault/Master_Architecture.md",
+    "scratch_files_utf8.txt",
+    "scratch_files.txt",
+    "App_Architecture/Backend/Routes/settings.md",
+    "App_Architecture/Backend/Controllers/settingsController.md",
+    "App_Architecture/Frontend/Component_Map.md",
+    "App_Architecture/Frontend/Components/AlertModal.md",
+    "App_Architecture/Backend/Services/backupService.md",
+    "App_Architecture/Frontend/Components/CustomSelect.md",
+    "vault/CustomSelect.md",
+    "vault/DividendTracker.md",
+    "vault/AisReconciliation.md",
+    "vault/backupService.md",
+    "vault",
+    "App_Architecture/Frontend/Components/Index.md",
+    "App_Architecture/Backend/Services/Index.md",
+    "App_Architecture/Backend/Services/analyticsService.md",
+    "App_Architecture/Backend/Services/advancedModelingService.md",
+    "App_Architecture/Frontend/Components/BankReconciliation.md",
+    "App_Architecture/Frontend/Components/AuthLock.md",
+    "App_Architecture/Frontend/Components/AuditTrail.md",
+    "App_Architecture/Frontend/Components/AssetCategories.md",
+    "App_Architecture/Frontend/Components/AnalyticsEngine.md",
+    "App_Architecture/Frontend/Components/AisReconciliation.md",
+    "App_Architecture/Frontend/Components/AdvanceTaxEstimator.md",
+    "App_Architecture/Frontend/Components/ActiveLoans.md",
+    "App_Architecture/Database/Database_Schema.md",
+    "App_Architecture/Cookbook.md",
+    "App_Architecture/Workflows",
+    "App_Architecture/Frontend/Hooks",
+    "App_Architecture/Frontend/Components",
+    "App_Architecture/Frontend",
+    "App_Architecture/Database",
+    "App_Architecture/Backend/Controllers",
+    "App_Architecture/Backend/Services"
+  ]
+}

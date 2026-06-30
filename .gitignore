@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# SQLite database files
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-journal
+
+# Uploaded files (contain user receipts/documents)
+uploads/
+backend/uploads/
+backend/src/uploads/
+
+# Backup files (contain unencrypted database copies)
+backend/backups/
+backups/
+
+# Native token file
+backend/data/native_token.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build output
+dist/
+dist-ssr/
+dist-electron/
+backend/dist-electron/
+*.local
+*.local
+
+# Scratch / temp
+scratch/
+backend/scratch/
