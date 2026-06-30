@@ -16,7 +16,7 @@ exports.create = (req, res, next) => {
         return res.status(400).json({ error: "Budget category name is strictly required." });
     }
     monthlyLimit = validateAmount(monthlyLimit, true) || '0.00';
-    const safeCategory = category.trim().substring(0, 50).toLowerCase();
+    const safeCategory = category.trim().substring(0, 50);
     
     try {
         const newId = budgetService.createBudget(safeCategory, monthlyLimit);
@@ -32,7 +32,7 @@ exports.update = (req, res, next) => {
         return res.status(400).json({ error: "Budget category name is strictly required." });
     }
     monthlyLimit = validateAmount(monthlyLimit, true) || '0.00';
-    const safeCategory = category.trim().substring(0, 50).toLowerCase();
+    const safeCategory = category.trim().substring(0, 50);
     
     try {
         budgetService.updateBudget(req.params.id, safeCategory, monthlyLimit);

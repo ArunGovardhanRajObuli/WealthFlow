@@ -50,7 +50,7 @@ exports.updateBudget = (id, safeCategory, monthlyLimit) => {
         const updateStmt = nativeDb.prepare('UPDATE budgets SET category = ?, monthlyLimit = ? WHERE id = ?');
         updateStmt.run(safeCategory, monthlyLimit, id);
         
-        if (oldBudget && oldBudget.category && oldBudget.category.toLowerCase() !== safeCategory) {
+        if (oldBudget && oldBudget.category && oldBudget.category !== safeCategory) {
             const updateTx = nativeDb.prepare('UPDATE transactions SET category = ? WHERE LOWER(category) = ?');
             updateTx.run(safeCategory, oldBudget.category.toLowerCase());
         }
